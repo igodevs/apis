@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
     res.send("Working")
 });
 
-app.listen(3000 || process.env.PORT, () => {
+app.listen(1337 || process.env.PORT, () => {
     console.log('app is running on port 3000');
 });
 
